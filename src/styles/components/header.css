@@ -1,0 +1,34 @@
+.header-inner-section {
+    width: 100%;
+}
+
+.header-inner-section .logo {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+#search-form {
+    display: flex;
+    gap: 1rem;
+    background-color: white;
+    padding: 1.25rem;
+}
+
+#search-form input {
+    width: 100%;
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+#search-form button[type="submit"] {
+    font-size: 2rem;
+    background: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
